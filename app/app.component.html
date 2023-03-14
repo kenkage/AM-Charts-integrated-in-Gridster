@@ -1,0 +1,12 @@
+<gridster [options]="options" *ngIf="!remove">
+    <gridster-item [item]="item" *ngFor="let item of dashboard">
+      <div class="button-holder">
+        <!-- <label *ngIf="!item.hasContent">{{item.label}}</label> -->
+        <!-- <button mat-mini-fab *ngIf="!item.hasContent" (mousedown)="removeItem($event, item)"
+                (touchstart)="removeItem($event, item)" matTooltip="Remove">
+          <mat-icon>delete</mat-icon>
+        </button> -->
+        <hello [name]="name"> </hello>
+      </div>
+    </gridster-item>
+</gridster>
