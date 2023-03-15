@@ -38,3 +38,7 @@ gridster-item .gridster-item-content {
   top: 10px;
   z-index: 100;
 }
+
+.visible {
+  overflow: visible !important;
+}
